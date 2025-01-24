@@ -1,0 +1,28 @@
+React Bootstrap
+---------------
+
+-optimized bootstrap package built for react.js
+-suitable for react.js development
+
+npm i react-bootstrap bootstrap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import axios from 'axios';
+
+const base_url="http://localhost:3000"
+
+exports.addMovieApi=async(data)=>{
+    return await axios.post(`${base_url}/movies`,data)
+}
