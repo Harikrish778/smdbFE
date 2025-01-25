@@ -60,7 +60,7 @@ function List({success}) {
                   </td>
                   <td>
                     <div>
-                      <Edit movie={item} e/>
+                      <Edit movie={item} edit={setEditRes}/>
                       <button onClick={()=>{deleteMovie(item.id)}} className="btn btn-danger">Delete</button>
                     </div>
                   </td>
